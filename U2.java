@@ -1,6 +1,6 @@
 public class U2 extends Rocket{
-    U2(int c, int w, int wC){
-        super(c, w, wC);
+    U2(int cost, int weight, int maxWeight){
+        super(cost, weight, maxWeight);
     }
 
     public boolean hasLaunched(){
