@@ -1,6 +1,6 @@
 public class U1 extends Rocket{
-    U1(int c, int w, int wC){
-        super(c, w, wC);
+    U1(int cost, int weight, int maxWeight){
+        super(cost, weight, maxWeight);
     }
     public boolean hasLaunched(){
         double randomNumber =  (Math.random()*100)+1;
